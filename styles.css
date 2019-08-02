@@ -1,0 +1,2902 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  animation: bgcolor 10s infinite;
+}
+
+@keyframes bgcolor {
+    0% {
+      background-color: #FFC32C /*#96ECFF*/
+    }
+    25% {
+        background-color: #E89F43 /*#52FAF1*/
+    }
+    50% {
+        background-color: #FFC105 /*#9AE0FF*/
+    }
+    75% {
+        background-color: #E8A42C/*#6CAFFF*/
+    }
+    100% {
+        background-color: #FFC32C /*#96ECFF*/
+    }
+}
+
+@media screen and (max-width:1200px){
+  .huh{
+    font-size: 70px !important;
+    display: flex;
+    flex-direction: column;
+    /* height: 100%; */
+  }
+  .nope{
+    font-size:50px !important;
+  }
+
+  ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    list-style-type: none;
+    margin-bottom: 60px;
+    /* padding-right: 100px; */
+    overflow: hidden;
+    background-color: #555;
+  }
+  li {
+    float:left;
+    margin-right: 140px;
+  }
+
+}
+
+@media screen and (max-width: 650px){}
+.huh{
+font-size: 60px !important;
+display: flex;
+flex-direction: column;
+}
+
+.nope{
+  font-size: 35px !important;
+}
+
+.yus {
+  display: flex;
+  justify-content: center;
+  margin: 18px auto;
+  width: 300px;
+}
+
+.yes {
+  background-color: #555;
+}
+
+.um {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background: white;
+  margin: 15px;
+}
+
+.submit {
+  font-size: 20px;
+}
+
+.next {
+  font-size: 15px;
+}
+
+.no {
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+h4 {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.delete-btn {
+  margin: 5px;
+}
+
+.endd {
+  margin-top: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 15px;
+}
+
+.end {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 15px;
+
+}
+
+.yup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+}
+.huh{
+  font-size:110px;
+  margin-top:20px;
+  margin-bottom:20px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Concert One', cursive;}
+
+.nope{
+  font-size:70px;
+  margin-top:10px;
+  margin-bottom:10px;
+  font-family: 'Concert One', cursive;
+}
+
+ul {
+  list-style-type: none;
+  margin-bottom: 60px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #555;
+}
+
+li {
+  float:left;
+  margin-left: 150px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Arimo', sans-serif;
+}
+
+li a:hover {
+  background-color: black;
+}
+
+/* here is the breakfast section w/ index2 */
+
+.hah1 {
+    font-size:100px;
+    margin-top:20px;
+    margin-bottom:20px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Concert One', cursive;
+  }
+.hah3{
+  font-size:40px;
+  margin-top:20px;
+  margin-bottom:20px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Concert One', cursive;
+}
+
+.container10 {
+  position: relative;
+  width: 50%;
+}
+.container10 img {
+  width: 100%;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+.container10 .btn {
+  position: absolute;
+  top: 50%;
+  left: 13.5%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Arimo', sans-serif;
+}
+.container10 .btn:hover {
+  background-color: black;
+}
+
+.container11 {
+  position: relative;
+  width: 50%;
+}
+.container11 img {
+  width: 100%;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+.container11 .btn {
+  position: absolute;
+  top: 50%;
+  left: 13.5%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Arimo', sans-serif;
+}
+.container11 .btn:hover {
+  background-color: black;
+}
+
+.container12 {
+  position: relative;
+  width: 50%;
+}
+.container12 img {
+  width: 100%;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+.container12 .btn {
+  position: absolute;
+  top: 50%;
+  left: 13.5%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Arimo', sans-serif;
+}
+.container12 .btn:hover {
+  background-color: black;
+}
+
+.container13 {
+  position: relative;
+  width: 50%;
+}
+.container13 img {
+  width: 100%;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+.container13 .btn {
+  position: absolute;
+  top: 50%;
+  left: 13.5%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 17px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Arimo', sans-serif;
+}
+.container13 .btn:hover {
+  background-color: black;
+}
+
+.container14 {
+  position: relative;
+  width: 50%;
+}
+.container14 img {
+  width: 100%;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+.container14 .btn {
+  position: absolute;
+  top: 50%;
+  left: 13.5%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Arimo', sans-serif;
+}
+.container14 .btn:hover {
+  background-color: black;
+}
+
+.container15 {
+  position: relative;
+  width: 50%;
+}
+.container15 img {
+  width: 100%;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+.container15 .btn {
+  position: absolute;
+  top: 50%;
+  left: 13.5%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Arimo', sans-serif;
+}
+.container15 .btn:hover {
+  background-color: black;
+}
+
+.container16 {
+  position: relative;
+  width: 50%;
+}
+.container16 img {
+  width: 100%;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+.container16 .btn {
+  position: absolute;
+  top: 50%;
+  left: 13.5%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Arimo', sans-serif;
+}
+.container16 .btn:hover {
+  background-color: black;
+}
+
+.container17 {
+  position: relative;
+  width: 50%;
+}
+.container17 img {
+  width: 100%;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+.container17 .btn {
+  position: absolute;
+  top: 50%;
+  left: 13.5%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 14px;
+  padding: 12px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Arimo', sans-serif;
+}
+.container17 .btn:hover {
+  background-color: black;
+}
+
+.container18 {
+  position: relative;
+  width: 50%;
+}
+.container18 img {
+  width: 100%;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+.container18 .btn {
+  position: absolute;
+  top: 50%;
+  left: 13.5%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Arimo', sans-serif;
+}
+.container18 .btn:hover {
+  background-color: black;
+}
+.bfastRow1{
+  display:flex;
+  justify-content:center;
+  padding-left: 175px;
+  padding-bottom: 50px;
+}
+.bfastRow2{
+  display:flex;
+  justify-content:center;
+  padding-left: 175px;
+  padding-bottom: 50px;
+}
+.bfastRow3{
+  display:flex;
+  justify-content:center;
+  padding-left: 175px;
+  padding-bottom: 50px;
+}
+
+/* Here is the start of lunch w/ index3 */
+.heh1 {
+    font-size:100px;
+    margin-top:20px;
+    margin-bottom:20px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Concert One', cursive;
+  }
+.heh3{
+  font-size:40px;
+  margin-top:20px;
+  margin-bottom:20px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Concert One', cursive;
+}
+
+.container19 {
+  position: relative;
+  width: 50%;
+}
+.container19 img {
+  width: 100%;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+.container19 .btn {
+  position: absolute;
+  top: 50%;
+  left: 13.5%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Arimo', sans-serif;
+}
+.container19 .btn:hover {
+  background-color: black;
+}
+
+.container20 {
+  position: relative;
+  width: 50%;
+}
+.container20 img {
+  width: 100%;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+.container20 .btn {
+  position: absolute;
+  top: 50%;
+  left: 13.5%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Arimo', sans-serif;
+}
+.container20 .btn:hover {
+  background-color: black;
+}
+
+.container21 {
+  position: relative;
+  width: 50%;
+}
+.container21 img {
+  width: 100%;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+.container21 .btn {
+  position: absolute;
+  top: 50%;
+  left: 13.5%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Arimo', sans-serif;
+}
+.container21 .btn:hover {
+  background-color: black;
+}
+
+.container22 {
+  position: relative;
+  width: 50%;
+}
+.container22 img {
+  width: 100%;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+.container22 .btn {
+  position: absolute;
+  top: 50%;
+  left: 13.5%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 14px;
+  padding: 12px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Arimo', sans-serif;
+}
+.container22 .btn:hover {
+  background-color: black;
+}
+
+.container23 {
+  position: relative;
+  width: 50%;
+}
+.container23 img {
+  width: 100%;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+.container23 .btn {
+  position: absolute;
+  top: 50%;
+  left: 13.5%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Arimo', sans-serif;
+}
+.container23 .btn:hover {
+  background-color: black;
+}
+
+.container24 {
+  position: relative;
+  width: 50%;
+}
+.container24 img {
+  width: 100%;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+.container24 .btn {
+  position: absolute;
+  top: 50%;
+  left: 13.5%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 14px;
+  padding: 12px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Arimo', sans-serif;
+}
+.container24 .btn:hover {
+  background-color: black;
+}
+
+.container25 {
+  position: relative;
+  width: 50%;
+}
+.container25 img {
+  width: 100%;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+.container25 .btn {
+  position: absolute;
+  top: 50%;
+  left: 13.5%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Arimo', sans-serif;
+}
+.container25 .btn:hover {
+  background-color: black;
+}
+
+.container26 {
+  position: relative;
+  width: 50%;
+}
+.container26 img {
+  width: 100%;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+.container26 .btn {
+  position: absolute;
+  top: 50%;
+  left: 13.5%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 14px;
+  padding: 12px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Arimo', sans-serif;
+}
+.container26 .btn:hover {
+  background-color: black;
+}
+
+.container27 {
+  position: relative;
+  width: 50%;
+}
+.container27 img {
+  width: 100%;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+.container27 .btn {
+  position: absolute;
+  top: 50%;
+  left: 13.5%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 13px;
+  padding: 12px 22px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Arimo', sans-serif;
+}
+.container27 .btn:hover {
+  background-color: black;
+}
+.lunchRow1{
+  display:flex;
+  justify-content:center;
+  padding-left: 175px;
+  padding-bottom: 50px;
+}
+.lunchRow2{
+  display:flex;
+  justify-content:center;
+  padding-left: 175px;
+  padding-bottom: 50px;
+}
+.lunchRow3{
+  display:flex;
+  justify-content:center;
+  padding-left: 175px;
+  padding-bottom: 50px;
+}
+
+
+/* all for index 4 w/ dinner */
+.heheh1 {
+    font-size:100px;
+    margin-top:20px;
+    margin-bottom:20px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Concert One', cursive;
+  }
+.heheh3{
+  font-size:40px;
+  margin-top:20px;
+  margin-bottom:20px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Concert One', cursive;
+}
+
+.container1 {
+  position: relative;
+  width: 50%;
+}
+.container1 img {
+  width: 100%;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+.container1 .btn {
+  position: absolute;
+  top: 50%;
+  left: 13.5%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  object-fit: cover;
+  font-family: 'Arimo', sans-serif;
+}
+.container1 .btn:hover {
+  background-color: black;
+}
+
+.container2 {
+  position: relative;
+  width: 50%;
+}
+.container2 img {
+  width: 100%;
+  height: 200px;
+  width: 200px;
+}
+.container2 .btn {
+  position: absolute;
+  top: 50%;
+  left: 13.5%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Arimo', sans-serif;
+}
+.container2 .btn:hover {
+  background-color: black;
+}
+
+.container3 {
+  position: relative;
+  width: 50%;
+}
+.container3 img {
+  width: 100%;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+.container3 .btn {
+  position: absolute;
+  top: 50%;
+  left: 13.5%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Arimo', sans-serif;
+}
+.container3 .btn:hover {
+  background-color: black;
+}
+
+.container4 {
+  position: relative;
+  width: 50%;
+}
+.container4 img {
+  width: 100%;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+.container4 .btn {
+  position: absolute;
+  top: 50%;
+  left: 13.5%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 11.5px;
+  padding: 12px 3px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Arimo', sans-serif;
+}
+.container4 .btn:hover {
+  background-color: black;
+}
+
+.container5 {
+  position: relative;
+  width: 50%;
+}
+.container5 img {
+  width: 100%;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+.container5 .btn {
+  position: absolute;
+  top: 50%;
+  left: 13.5%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 13.5px;
+  padding: 12px 2px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Arimo', sans-serif;
+}
+.container5 .btn:hover {
+  background-color: black;
+}
+
+.container6 {
+  position: relative;
+  width: 50%;
+}
+.container6 img {
+  width: 100%;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+.container6 .btn {
+  position: absolute;
+  top: 50%;
+  left: 13.5%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Arimo', sans-serif;
+}
+.container6 .btn:hover {
+  background-color: black;
+}
+
+.container7 {
+  position: relative;
+  width: 50%;
+}
+.container7 img {
+  width: 100%;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+.container7 .btn {
+  position: absolute;
+  top: 50%;
+  left: 13.5%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 12px;
+  padding: 12px 5px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Arimo', sans-serif;
+}
+.container7 .btn:hover {
+  background-color: black;
+}
+
+.container8 {
+  position: relative;
+  width: 50%;
+}
+.container8 img {
+  width: 100%;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+.container8 .btn {
+  position: absolute;
+  top: 50%;
+  left: 13.5%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Arimo', sans-serif;
+}
+.container8 .btn:hover {
+  background-color: black;
+}
+
+.container9 {
+  position: relative;
+  width: 50%;
+}
+.container9 img {
+  width: 100%;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+.container9 .btn {
+  position: absolute;
+  top: 50%;
+  left: 13.5%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Arimo', sans-serif;
+}
+.container9 .btn:hover {
+  background-color: black;
+}
+
+.btn {
+  margin-left: 44px;
+}
+
+.dinnerRow1{
+  display:flex;
+  justify-content:center;
+  padding-left: 175px;
+  padding-bottom: 50px;
+}
+.dinnerRow2{
+  display:flex;
+  justify-content:center;
+  padding-left: 175px;
+  padding-bottom: 50px;
+}
+.dinnerRow3{
+  display:flex;
+  justify-content:center;
+  padding-left: 175px;
+  padding-bottom: 50px;
+}
+
+
+/* dessert w/index5 here */
+.homie {
+    font-size:100px;
+    margin-top:20px;
+    margin-bottom:20px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Concert One', cursive;
+  }
+.nerd{
+  font-size:40px;
+  margin-top:20px;
+  margin-bottom:20px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Concert One', cursive;
+}
+.container28 {
+  position: relative;
+  width: 50%;
+}
+.container28 img {
+  width: 100%;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+.container28 .btn {
+  position: absolute;
+  top: 50%;
+  left: 13.5%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Arimo', sans-serif;
+}
+.container28 .btn:hover {
+  background-color: black;
+}
+
+.container29 {
+  position: relative;
+  width: 50%;
+}
+.container29 img {
+  width: 100%;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+.container29 .btn {
+  position: absolute;
+  top: 50%;
+  left: 13.5%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Arimo', sans-serif;
+}
+.container29 .btn:hover {
+  background-color: black;
+}
+
+.container30 {
+  position: relative;
+  width: 50%;
+}
+.container30 img {
+  width: 100%;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+.container30 .btn {
+  position: absolute;
+  top: 50%;
+  left: 13.5%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Arimo', sans-serif;
+}
+.container30 .btn:hover {
+  background-color: black;
+}
+
+.container31 {
+  position: relative;
+  width: 50%;
+}
+.container31 img {
+  width: 100%;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+.container31 .btn {
+  position: absolute;
+  top: 50%;
+  left: 13.5%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 17px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Arimo', sans-serif;
+}
+.container31 .btn:hover {
+  background-color: black;
+}
+
+.container32 {
+  position: relative;
+  width: 50%;
+}
+.container32 img {
+  width: 100%;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+.container32 .btn {
+  position: absolute;
+  top: 50%;
+  left: 13.5%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Arimo', sans-serif;
+}
+.container32 .btn:hover {
+  background-color: black;
+}
+
+.container33 {
+  position: relative;
+  width: 50%;
+}
+.container33 img {
+  width: 100%;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+.container33 .btn {
+  position: absolute;
+  top: 50%;
+  left: 13.5%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Arimo', sans-serif;
+}
+.container33 .btn:hover {
+  background-color: black;
+}
+
+.container34 {
+  position: relative;
+  width: 50%;
+}
+.container34 img {
+  width: 100%;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+.container34 .btn {
+  position: absolute;
+  top: 50%;
+  left: 13.5%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Arimo', sans-serif;
+}
+.container34 .btn:hover {
+  background-color: black;
+}
+
+.container35 {
+  position: relative;
+  width: 50%;
+}
+.container35 img {
+  width: 100%;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+.container35 .btn {
+  position: absolute;
+  top: 50%;
+  left: 13.5%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 14px;
+  padding: 12px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Arimo', sans-serif;
+}
+.container35 .btn:hover {
+  background-color: black;
+}
+
+.container36 {
+  position: relative;
+  width: 50%;
+}
+.container36 img {
+  width: 100%;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+.container36 .btn {
+  position: absolute;
+  top: 50%;
+  left: 13.5%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 14px;
+  padding: 12px 19px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Arimo', sans-serif;
+}
+.container36 .btn:hover {
+  background-color: black;
+}
+.dessertRow1{
+  display:flex;
+  justify-content:center;
+  padding-left: 175px;
+  padding-bottom: 50px;
+}
+.dessertRow2{
+  display:flex;
+  justify-content:center;
+  padding-left: 175px;
+  padding-bottom: 50px;
+}
+.dessertRow3{
+  display:flex;
+  justify-content:center;
+  padding-left: 175px;
+  padding-bottom: 50px;
+}
+
+/* ALL BFAST RECIPES BELOW */
+/* French Toast here */
+.ft-h1{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  font-family: 'Concert One', cursive;
+  font-size:80px;
+  margin-bottom:30px;
+}
+.ft-main{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+  margin:10px;
+}
+.ft-img{
+  height:480px;
+  width: 480px;
+  object-fit:cover;
+}
+.ft-para{
+  display:flex;
+  flex-wrap:wrap;
+  align-items: center;
+  font-family: 'Arimo', sans-serif;
+  font-size:30px;
+  margin:10px;
+}
+.ft-r{
+  display:flex;
+  flex-wrap:wrap;
+  align-items: center;
+  justify-content:center;
+  font-family: 'Arimo', sans-serif;
+  font-size:30px;
+  margin-top:30px;
+  margin-left:150px;
+  margin-right:150px;
+  margin-bottom: 20px;
+  width:1000px;
+}
+
+/* Eggs Benidict here */
+.eb-h1{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  font-family: 'Concert One', cursive;
+  font-size:80px;
+  margin-bottom:30px;
+}
+.eb-main{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+  margin:10px;
+}
+.eb-img{
+  height:480px;
+  width:480px;
+  object-fit:cover;
+}
+.eb-para{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  font-family: 'Arimo', sans-serif;
+  font-size:30px;
+  margin:10px;
+}
+.eb-r{
+  display:flex;
+  flex-wrap:wrap;
+  align-items: center;
+  justify-content:center;
+  font-family: 'Arimo', sans-serif;
+  font-size:30px;
+  margin-top:30px;
+  margin-left:150px;
+  margin-right:150px;
+  margin-bottom: 20px;
+  width:1000px;
+}
+
+/* Oatmeal here */
+.ot-h1{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  font-family: 'Concert One', cursive;
+  font-size:80px;
+  margin-bottom:30px;
+}
+.ot-main{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+  margin:10px;
+}
+.ot-img{
+  height:480px;
+  width:480px;
+  object-fit:cover;
+}
+.ot-para{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  font-family: 'Arimo', sans-serif;
+  font-size:30px;
+  margin:10px;
+}
+.ot-r{
+  display:flex;
+  flex-wrap:wrap;
+  align-items: center;
+  justify-content:center;
+  font-family: 'Arimo', sans-serif;
+  font-size:30px;
+  margin-top:30px;
+  margin-left:150px;
+  margin-right:150px;
+  margin-bottom: 20px;
+  width:1000px;
+}
+
+/* Bacon Sandwhich here */
+.bs-h1{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  font-family: 'Concert One', cursive;
+  font-size:80px;
+  margin-bottom:30px;
+}
+.bs-main{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+  margin:10px;
+}
+.bs-img{
+  height:480px;
+  width:480px;
+  object-fit:cover;
+}
+.bs-para{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  font-family: 'Arimo', sans-serif;
+  font-size:30px;
+  margin:10px;
+}
+.bs-r{
+  display:flex;
+  flex-wrap:wrap;
+  align-items: center;
+  justify-content:center;
+  font-family: 'Arimo', sans-serif;
+  font-size:30px;
+  margin-top:30px;
+  margin-left:150px;
+  margin-right:150px;
+  margin-bottom: 20px;
+  width:1000px;
+}
+
+/* Muffins here */
+.bm-h1{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  font-family: 'Concert One', cursive;
+  font-size:80px;
+  margin-bottom:30px;
+}
+.bm-main{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+  margin:10px;
+}
+.bm-img{
+  height:480px;
+  width:480px;
+  object-fit:cover;
+}
+.bm-para{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  font-family: 'Arimo', sans-serif;
+  font-size:30px;
+  margin:10px;
+}
+.bm-r{
+  display:flex;
+  flex-wrap:wrap;
+  align-items: center;
+  justify-content:center;
+  font-family: 'Arimo', sans-serif;
+  font-size:30px;
+  margin-top:30px;
+  margin-left:150px;
+  margin-right:150px;
+  margin-bottom: 20px;
+  width:1000px;
+}
+
+
+/* Veggie Taco here */
+.vt-h1{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  font-family: 'Concert One', cursive;
+  font-size:80px;
+  margin-bottom:30px;
+}
+.vt-main{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+  margin:10px;
+}
+.vt-img{
+  height:480px;
+  width:480px;
+  object-fit:cover;
+}
+.vt-para{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  font-family: 'Arimo', sans-serif;
+  font-size:30px;
+  margin:10px;
+}
+.vt-r{
+  display:flex;
+  flex-wrap:wrap;
+  align-items: center;
+  justify-content:center;
+  font-family: 'Arimo', sans-serif;
+  font-size:30px;
+  margin-top:30px;
+  margin-left:150px;
+  margin-right:150px;
+  margin-bottom: 20px;
+  width:1000px;
+}
+
+
+/* Bfast Burrito here */
+.bb-h1{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  font-family: 'Concert One', cursive;
+  font-size:80px;
+  margin-bottom:30px;
+}
+.bb-main{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+  margin:10px;
+}
+.bb-img{
+  height:480px;
+  width:480px;
+  object-fit:cover;
+}
+.bb-para{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  font-family: 'Arimo', sans-serif;
+  font-size:30px;
+  margin:10px;
+}
+.bb-r{
+  display:flex;
+  flex-wrap:wrap;
+  align-items: center;
+  justify-content:center;
+  font-family: 'Arimo', sans-serif;
+  font-size:30px;
+  margin-top:30px;
+  margin-left:150px;
+  margin-right:150px;
+  margin-bottom: 20px;
+  width:1000px;
+}
+
+/* smoothie here */
+.sb-h1{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  font-family: 'Concert One', cursive;
+  font-size:80px;
+  margin-bottom:30px;
+}
+.sb-main{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+  margin:10px;
+}
+.sb-img{
+  height:480px;
+  width:480px;
+  object-fit:cover;
+}
+.sb-para{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  font-family: 'Arimo', sans-serif;
+  font-size:30px;
+  margin:10px;
+}
+.sb-r{
+  display:flex;
+  flex-wrap:wrap;
+  align-items: center;
+  justify-content:center;
+  font-family: 'Arimo', sans-serif;
+  font-size:30px;
+  margin-top:30px;
+  margin-left:150px;
+  margin-right:150px;
+  margin-bottom: 20px;
+  width:1000px;
+}
+
+/* Greek Yogart here */
+.gy-h1{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  font-family: 'Concert One', cursive;
+  font-size:80px;
+  margin-bottom:30px;
+}
+.gy-main{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+  margin:10px;
+}
+.gy-img{
+  height:480px;
+  width:480px;
+  object-fit:cover;
+}
+.gy-para{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  font-family: 'Arimo', sans-serif;
+  font-size:30px;
+  margin:10px;
+}
+.gy-r{
+  display:flex;
+  flex-wrap:wrap;
+  align-items: center;
+  justify-content:center;
+  font-family: 'Arimo', sans-serif;
+  font-size:30px;
+  margin-top:30px;
+  margin-left:150px;
+  margin-right:150px;
+  margin-bottom: 20px;
+  width:1000px;
+}
+
+
+/* BLT here */
+.bl-h1{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  font-family: 'Concert One', cursive;
+  font-size:80px;
+  margin-bottom:30px;
+}
+.bl-main{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+  margin:10px;
+}
+.bl-img{
+  height:480px;
+  width:480px;
+  object-fit:cover;
+}
+.bl-para{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  font-family: 'Arimo', sans-serif;
+  font-size:30px;
+  margin:10px;
+}
+.bl-r{
+  display:flex;
+  flex-wrap:wrap;
+  align-items: center;
+  justify-content:center;
+  font-family: 'Arimo', sans-serif;
+  font-size:30px;
+  margin-top:30px;
+  margin-left:150px;
+  margin-right:150px;
+  margin-bottom: 20px;
+  width:1000px;
+}
+
+
+/* Grilled Cheese here */
+.gc-h1{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  font-family: 'Concert One', cursive;
+  font-size:80px;
+  margin-bottom:30px;
+}
+.gc-main{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+  margin:10px;
+}
+.gc-img{
+  height:480px;
+  width:480px;
+  object-fit:cover;
+}
+.gc-para{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  font-family: 'Arimo', sans-serif;
+  font-size:30px;
+  margin:10px;
+  width:500px;
+}
+.gc-r{
+  display:flex;
+  flex-wrap:wrap;
+  align-items: center;
+  justify-content:center;
+  font-family: 'Arimo', sans-serif;
+  font-size:30px;
+  margin-top:30px;
+  margin-left:150px;
+  margin-right:150px;
+  margin-bottom: 20px;
+  width:1000px;
+}
+
+/* burrito here */
+.bu-h1{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  font-family: 'Concert One', cursive;
+  font-size:80px;
+  margin-bottom:30px;
+}
+.bu-main{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+  margin:10px;
+}
+.bu-img{
+  height:480px;
+  width:480px;
+  object-fit:cover;
+}
+.bu-para{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  font-family: 'Arimo', sans-serif;
+  font-size:30px;
+  margin:10px;
+  width:500px;
+}
+.bu-r{
+  display:flex;
+  flex-wrap:wrap;
+  align-items: center;
+  justify-content:center;
+  font-family: 'Arimo', sans-serif;
+  font-size:30px;
+  margin-top:30px;
+  margin-left:150px;
+  margin-right:150px;
+  margin-bottom: 20px;
+  width:1000px;
+}
+
+
+/* Chicken Pesto here */
+.cp-h1{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  font-family: 'Concert One', cursive;
+  font-size:80px;
+  margin-bottom:30px;
+}
+.cp-main{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+  margin:10px;
+}
+.cp-img{
+  height:480px;
+  width:480px;
+  object-fit:cover;
+}
+.cp-para{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  font-family: 'Arimo', sans-serif;
+  font-size:30px;
+  margin:10px;
+}
+.cp-r{
+  display:flex;
+  flex-wrap:wrap;
+  align-items: center;
+  justify-content:center;
+  font-family: 'Arimo', sans-serif;
+  font-size:30px;
+  margin-top:30px;
+  margin-left:150px;
+  margin-right:150px;
+  margin-bottom: 20px;
+  width:1000px;
+}
+
+/* Cheeseburger here */
+
+.cb-h1{
+ display: flex;
+ justify-content:center;
+ align-items: center;
+ font-family: 'Concert One', cursive;
+ font-size:80px;
+ margin-bottom:30px;
+}
+.cb-main{
+ display:flex;
+ flex-direction:row;
+ justify-content: space-around;
+ margin:10px;
+}
+.cb-img{
+ height:480px;
+ width:480px;
+ object-fit:cover;
+}
+.cb-para{
+ display:flex;
+ flex-wrap:wrap;
+ align-items:center;
+ font-family: 'Arimo', sans-serif;
+ font-size:30px;
+ margin:10px;
+}
+.cb-r{
+ display:flex;
+ flex-wrap:wrap;
+ align-items: center;
+ justify-content:center;
+ font-family: 'Arimo', sans-serif;
+ font-size:30px;
+ margin-top:30px;
+ margin-left:150px;
+ margin-right:150px;
+ margin-bottom: 20px;
+ width:1000px;
+}
+
+/* Quinoa salad here */
+.bq-h1{
+ display: flex;
+ justify-content:center;
+ align-items: center;
+ font-family: 'Concert One', cursive;
+ font-size:80px;
+ margin-bottom:30px;
+}
+.bq-main{
+ display:flex;
+ flex-direction:row;
+ justify-content: space-around;
+ margin:10px;
+}
+.bq-img{
+ height:480px;
+ width:480px;
+ object-fit:cover;
+}
+.bq-para{
+ display:flex;
+ flex-wrap:wrap;
+ align-items:center;
+ font-family: 'Arimo', sans-serif;
+ font-size:30px;
+ margin:10px;
+}
+.bq-r{
+ display:flex;
+ flex-wrap:wrap;
+ align-items: center;
+ justify-content:center;
+ font-family: 'Arimo', sans-serif;
+ font-size:30px;
+ margin-top:30px;
+ margin-left:150px;
+ margin-right:150px;
+ margin-bottom: 20px;
+ width:1000px;
+}
+
+/* Pasta salad here */
+.ps-h1{
+ display: flex;
+ justify-content:center;
+ align-items: center;
+ font-family: 'Concert One', cursive;
+ font-size:80px;
+ margin-bottom:30px;
+}
+.ps-main{
+ display:flex;
+ flex-direction:row;
+ justify-content: space-around;
+ margin:10px;
+}
+.ps-img{
+ height:480px;
+ width:480px;
+ object-fit:cover;
+}
+.ps-para{
+ display:flex;
+ flex-wrap:wrap;
+ align-items:center;
+ font-family: 'Arimo', sans-serif;
+ font-size:30px;
+ margin:10px;
+}
+.ps-r{
+ display:flex;
+ flex-wrap:wrap;
+ align-items: center;
+ justify-content:center;
+ font-family: 'Arimo', sans-serif;
+ font-size:30px;
+ margin-top:30px;
+ margin-left:150px;
+ margin-right:150px;
+ margin-bottom: 20px;
+ width:1000px;
+}
+
+
+/* Tortellini salad here */
+.ts-h1{
+ display: flex;
+ justify-content:center;
+ align-items: center;
+ font-family: 'Concert One', cursive;
+ font-size:80px;
+ margin-bottom:30px;
+}
+.ts-main{
+ display:flex;
+ flex-direction:row;
+ justify-content: space-around;
+ margin:10px;
+}
+.ts-img{
+ height:480px;
+ width:480px;
+ object-fit:cover;
+}
+.ts-para{
+ display:flex;
+ flex-wrap:wrap;
+ align-items:center;
+ font-family: 'Arimo', sans-serif;
+ font-size:30px;
+ margin:10px;
+}
+.ts-r{
+ display:flex;
+ flex-wrap:wrap;
+ align-items: center;
+ justify-content:center;
+ font-family: 'Arimo', sans-serif;
+ font-size:30px;
+ margin-top:30px;
+ margin-left:150px;
+ margin-right:150px;
+ margin-bottom: 20px;
+ width:1000px;
+}
+
+
+
+/* Buffalo Chicken here */
+.bc-h1{
+ display: flex;
+ justify-content:center;
+ align-items: center;
+ font-family: 'Concert One', cursive;
+ font-size:80px;
+ margin-bottom:30px;
+}
+.bc-main{
+ display:flex;
+ flex-direction:row;
+ justify-content: space-around;
+ margin:10px;
+}
+.bc-img{
+ height:480px;
+ width:480px;
+ object-fit:cover;
+}
+.bc-para{
+ display:flex;
+ flex-wrap:wrap;
+ align-items:center;
+ font-family: 'Arimo', sans-serif;
+ font-size:30px;
+ margin:10px;
+ width:500px;
+}
+.bc-r{
+ display:flex;
+ flex-wrap:wrap;
+ align-items: center;
+ justify-content:center;
+ font-family: 'Arimo', sans-serif;
+ font-size:30px;
+ margin-top:30px;
+ margin-left:150px;
+ margin-right:150px;
+ margin-bottom: 20px;
+ width:1000px;
+}
+
+
+/* Stir Fry here */
+.sf-h1{
+ display: flex;
+ justify-content:center;
+ align-items: center;
+ font-family: 'Concert One', cursive;
+ font-size:80px;
+ margin-bottom:30px;
+}
+.sf-main{
+ display:flex;
+ flex-direction:row;
+ justify-content: space-around;
+ margin:10px;
+}
+.sf-img{
+ height:480px;
+ width:480px;
+ object-fit:cover;
+}
+.sf-para{
+ display:flex;
+ flex-wrap:wrap;
+ align-items:center;
+ font-family: 'Arimo', sans-serif;
+ font-size:30px;
+ margin:10px;
+}
+.sf-r{
+ display:flex;
+ flex-wrap:wrap;
+ align-items: center;
+ justify-content:center;
+ font-family: 'Arimo', sans-serif;
+ font-size:30px;
+ margin-top:30px;
+ margin-left:150px;
+ margin-right:150px;
+ margin-bottom: 20px;
+ width:1000px;
+}
+
+/* Pizza here */
+.hp-h1{
+ display: flex;
+ justify-content:center;
+ align-items: center;
+ font-family: 'Concert One', cursive;
+ font-size:80px;
+ margin-bottom:30px;
+}
+.hp-main{
+ display:flex;
+ flex-direction:row;
+ justify-content: space-around;
+ margin:10px;
+}
+.hp-img{
+ height:480px;
+ width:480px;
+ object-fit:cover;
+}
+.hp-para{
+ display:flex;
+ flex-wrap:wrap;
+ align-items:center;
+ font-family: 'Arimo', sans-serif;
+ font-size:30px;
+ margin:10px;
+}
+.hp-r{
+ display:flex;
+ flex-wrap:wrap;
+ align-items: center;
+ justify-content:center;
+ font-family: 'Arimo', sans-serif;
+ font-size:30px;
+ margin-top:30px;
+ margin-left:150px;
+ margin-right:150px;
+ margin-bottom: 20px;
+ width:1000px;
+}
+
+/* Caesar salad here */
+.cc-h1{
+ display: flex;
+ justify-content:center;
+ align-items: center;
+ font-family: 'Concert One', cursive;
+ font-size:80px;
+ margin-bottom:30px;
+}
+.cc-main{
+ display:flex;
+ flex-direction:row;
+ justify-content: space-around;
+ margin:10px;
+}
+.cc-img{
+ height:480px;
+ width:480px;
+ object-fit:cover;
+}
+.cc-para{
+ display:flex;
+ flex-wrap:wrap;
+ align-items:center;
+ font-family: 'Arimo', sans-serif;
+ font-size:30px;
+ margin:10px;
+ width:500px;
+}
+.cc-r{
+ display:flex;
+ flex-wrap:wrap;
+ align-items: center;
+ justify-content:center;
+ font-family: 'Arimo', sans-serif;
+ font-size:30px;
+ margin-top:30px;
+ margin-left:150px;
+ margin-right:150px;
+ margin-bottom: 20px;
+ width:1000px;
+}
+
+/* Garlic Salmon here */
+.gs-h1{
+ display: flex;
+ justify-content:center;
+ align-items: center;
+ font-family: 'Concert One', cursive;
+ font-size:80px;
+ margin-bottom:30px;
+}
+.gs-main{
+ display:flex;
+ flex-direction:row;
+ justify-content: space-around;
+ margin:10px;
+}
+.gs-img{
+ height:480px;
+ width:480px;
+ object-fit:cover;
+}
+.gs-para{
+ display:flex;
+ flex-wrap:wrap;
+ align-items:center;
+ font-family: 'Arimo', sans-serif;
+ font-size:30px;
+ margin:10px;
+ width:500px;
+}
+.gs-r{
+ display:flex;
+ flex-wrap:wrap;
+ align-items: center;
+ justify-content:center;
+ font-family: 'Arimo', sans-serif;
+ font-size:30px;
+ margin-top:30px;
+ margin-left:150px;
+ margin-right:150px;
+ margin-bottom: 20px;
+ width:1000px;
+}
+
+/* Squash Bowl here */
+.sq-h1{
+ display: flex;
+ justify-content:center;
+ align-items: center;
+ font-family: 'Concert One', cursive;
+ font-size:80px;
+ margin-bottom:30px;
+}
+.sq-main{
+ display:flex;
+ flex-direction:row;
+ justify-content: space-around;
+ margin:10px;
+}
+.sq-img{
+ height:480px;
+ width:480px;
+ object-fit:cover;
+}
+.sq-para{
+ display:flex;
+ flex-wrap:wrap;
+ align-items:center;
+ font-family: 'Arimo', sans-serif;
+ font-size:30px;
+ margin:10px;
+}
+.sq-r{
+ display:flex;
+ flex-wrap:wrap;
+ align-items: center;
+ justify-content:center;
+ font-family: 'Arimo', sans-serif;
+ font-size:30px;
+ margin-top:30px;
+ margin-left:150px;
+ margin-right:150px;
+ margin-bottom: 20px;
+ width:1000px;
+}
+
+/* Stuffed Peppers here */
+.sp-h1{
+ display: flex;
+ justify-content:center;
+ align-items: center;
+ font-family: 'Concert One', cursive;
+ font-size:80px;
+ margin-bottom:30px;
+}
+.sp-main{
+ display:flex;
+ flex-direction:row;
+ justify-content: space-around;
+ margin:10px;
+}
+.sp-img{
+ height:480px;
+ width:480px;
+ object-fit:cover;
+}
+.sp-para{
+ display:flex;
+ flex-wrap:wrap;
+ align-items:center;
+ font-family: 'Arimo', sans-serif;
+ font-size:30px;
+ margin:10px;
+}
+.sp-r{
+ display:flex;
+ flex-wrap:wrap;
+ align-items: center;
+ justify-content:center;
+ font-family: 'Arimo', sans-serif;
+ font-size:30px;
+ margin-top:30px;
+ margin-left:150px;
+ margin-right:150px;
+ margin-bottom: 20px;
+ width:1000px;
+}
+
+/* Pork here */
+.pt-h1{
+ display: flex;
+ justify-content:center;
+ align-items: center;
+ font-family: 'Concert One', cursive;
+ font-size:80px;
+ margin-bottom:30px;
+}
+.pt-main{
+ display:flex;
+ flex-direction:row;
+ justify-content: space-around;
+ margin:10px;
+}
+.pt-img{
+ height:480px;
+ width:480px;
+ object-fit:cover;
+}
+.pt-para{
+ display:flex;
+ flex-wrap:wrap;
+ align-items:center;
+ font-family: 'Arimo', sans-serif;
+ font-size:30px;
+ margin:10px;
+}
+.pt-r{
+ display:flex;
+ flex-wrap:wrap;
+ align-items: center;
+ justify-content:center;
+ font-family: 'Arimo', sans-serif;
+ font-size:30px;
+ margin-top:30px;
+ margin-left:150px;
+ margin-right:150px;
+ margin-bottom: 20px;
+ width:1000px;
+}
+
+/* Pan-seared chicken here */
+.pc-h1{
+ display: flex;
+ justify-content:center;
+ align-items: center;
+ font-family: 'Concert One', cursive;
+ font-size:80px;
+ margin-bottom:30px;
+}
+.pc-main{
+ display:flex;
+ flex-direction:row;
+ justify-content: space-around;
+ margin:10px;
+}
+.pc-img{
+ height:480px;
+ width:480px;
+ object-fit:cover;
+}
+.pc-para{
+ display:flex;
+ flex-wrap:wrap;
+ align-items:center;
+ font-family: 'Arimo', sans-serif;
+ font-size:30px;
+ margin:10px;
+}
+.pc-r{
+ display:flex;
+ flex-wrap:wrap;
+ align-items: center;
+ justify-content:center;
+ font-family: 'Arimo', sans-serif;
+ font-size:30px;
+ margin-top:30px;
+ margin-left:150px;
+ margin-right:150px;
+ margin-bottom: 20px;
+ width:1000px;
+}
+
+/* Penne here */
+.pv-h1{
+ display: flex;
+ justify-content:center;
+ align-items: center;
+ font-family: 'Concert One', cursive;
+ font-size:80px;
+ margin-bottom:30px;
+}
+.pv-main{
+ display:flex;
+ flex-direction:row;
+ justify-content: space-around;
+ margin:10px;
+}
+.pv-img{
+ height:480px;
+ width:480px;
+ object-fit:cover;
+}
+.pv-para{
+ display:flex;
+ flex-wrap:wrap;
+ align-items:center;
+ font-family: 'Arimo', sans-serif;
+ font-size:30px;
+ margin:10px;
+}
+.pv-r{
+ display:flex;
+ flex-wrap:wrap;
+ align-items: center;
+ justify-content:center;
+ font-family: 'Arimo', sans-serif;
+ font-size:30px;
+ margin-top:30px;
+ margin-left:150px;
+ margin-right:150px;
+ margin-bottom: 20px;
+ width:1000px;
+}
+
+/* creme brulee here */
+.br-h1{
+ display: flex;
+ justify-content:center;
+ align-items: center;
+ font-family: 'Concert One', cursive;
+ font-size:80px;
+ margin-bottom:30px;
+}
+.br-main{
+ display:flex;
+ flex-direction:row;
+ justify-content: space-around;
+ margin:10px;
+}
+.br-img{
+ height:480px;
+ width:480px;
+ object-fit:cover;
+}
+.br-para{
+ display:flex;
+ flex-wrap:wrap;
+ align-items:center;
+ font-family: 'Arimo', sans-serif;
+ font-size:30px;
+ margin:10px;
+}
+.br-r{
+ display:flex;
+ flex-wrap:wrap;
+ align-items: center;
+ justify-content:center;
+ font-family: 'Arimo', sans-serif;
+ font-size:30px;
+ margin-top:30px;
+ margin-left:150px;
+ margin-right:150px;
+ margin-bottom: 20px;
+ width:1000px;
+}
+
+/* Baked Alaska here */
+.ba-h1{
+ display: flex;
+ justify-content:center;
+ align-items: center;
+ font-family: 'Concert One', cursive;
+ font-size:80px;
+ margin-bottom:30px;
+}
+.ba-main{
+ display:flex;
+ flex-direction:row;
+ justify-content: space-around;
+ margin:10px;
+}
+.ba-img{
+ height:480px;
+ width:480px;
+ object-fit:cover;
+}
+.ba-para{
+ display:flex;
+ flex-wrap:wrap;
+ align-items:center;
+ font-family: 'Arimo', sans-serif;
+ font-size:30px;
+ margin:10px;
+}
+.ba-r{
+ display:flex;
+ flex-wrap:wrap;
+ align-items: center;
+ justify-content:center;
+ font-family: 'Arimo', sans-serif;
+ font-size:30px;
+ margin-top:30px;
+ margin-left:150px;
+ margin-right:150px;
+ margin-bottom: 20px;
+ width:1000px;
+}
+
+/* smores here */
+.sm-h1{
+ display: flex;
+ justify-content:center;
+ align-items: center;
+ font-family: 'Concert One', cursive;
+ font-size:80px;
+ margin-bottom:30px;
+}
+.sm-main{
+ display:flex;
+ flex-direction:row;
+ justify-content: space-around;
+ margin:10px;
+}
+.sm-img{
+ height:480px;
+ width:480px;
+ object-fit:cover;
+}
+.sm-para{
+ display:flex;
+ flex-wrap:wrap;
+ align-items:center;
+ font-family: 'Arimo', sans-serif;
+ font-size:30px;
+ margin:10px;
+ width:500px;
+}
+.sm-r{
+ display:flex;
+ flex-wrap:wrap;
+ align-items: center;
+ justify-content:center;
+ font-family: 'Arimo', sans-serif;
+ font-size:30px;
+ margin-top:30px;
+ margin-left:150px;
+ margin-right:150px;
+ margin-bottom: 20px;
+ width:1000px;
+}
+
+/* Brookie here */
+.bk-h1{
+ display: flex;
+ justify-content:center;
+ align-items: center;
+ font-family: 'Concert One', cursive;
+ font-size:80px;
+ margin-bottom:30px;
+}
+.bk-main{
+ display:flex;
+ flex-direction:row;
+ justify-content: space-around;
+ margin:10px;
+}
+.bk-img{
+ height:480px;
+ width:480px;
+ object-fit:cover;
+}
+.bk-para{
+ display:flex;
+ flex-wrap:wrap;
+ align-items:center;
+ font-family: 'Arimo', sans-serif;
+ font-size:30px;
+ margin:10px;
+}
+.bk-r{
+ display:flex;
+ flex-wrap:wrap;
+ align-items: center;
+ justify-content:center;
+ font-family: 'Arimo', sans-serif;
+ font-size:30px;
+ margin-top:30px;
+ margin-left:150px;
+ margin-right:150px;
+ margin-bottom: 20px;
+ width:1000px;
+}
+
+/* Macaroon here */
+.ma-h1{
+ display: flex;
+ justify-content:center;
+ align-items: center;
+ font-family: 'Concert One', cursive;
+ font-size:80px;
+ margin-bottom:30px;
+}
+.ma-main{
+ display:flex;
+ flex-direction:row;
+ justify-content: space-around;
+ margin:10px;
+}
+.ma-img{
+ height:480px;
+ width:480px;
+ object-fit:cover;
+}
+.ma-para{
+ display:flex;
+ flex-wrap:wrap;
+ align-items:center;
+ font-family: 'Arimo', sans-serif;
+ font-size:30px;
+ margin:10px;
+}
+.ma-r{
+ display:flex;
+ flex-wrap:wrap;
+ align-items: center;
+ justify-content:center;
+ font-family: 'Arimo', sans-serif;
+ font-size:30px;
+ margin-top:30px;
+ margin-left:150px;
+ margin-right:150px;
+ margin-bottom: 20px;
+ width:1000px;
+}
+
+/* Fudge here */
+.fu-h1{
+ display: flex;
+ justify-content:center;
+ align-items: center;
+ font-family: 'Concert One', cursive;
+ font-size:80px;
+ margin-bottom:30px;
+}
+.fu-main{
+ display:flex;
+ flex-direction:row;
+ justify-content: space-around;
+ margin:10px;
+}
+.fu-img{
+ height:480px;
+ width:480px;
+ object-fit:cover;
+}
+.fu-para{
+ display:flex;
+ flex-wrap:wrap;
+ align-items:center;
+ font-family: 'Arimo', sans-serif;
+ font-size:30px;
+ margin:10px;
+}
+.fu-r{
+ display:flex;
+ flex-wrap:wrap;
+ align-items: center;
+ justify-content:center;
+ font-family: 'Arimo', sans-serif;
+ font-size:30px;
+ margin-top:30px;
+ margin-left:150px;
+ margin-right:150px;
+ margin-bottom: 20px;
+ width:1000px;
+}
+
+/* Gelato here */
+.ge-h1{
+ display: flex;
+ justify-content:center;
+ align-items: center;
+ font-family: 'Concert One', cursive;
+ font-size:80px;
+ margin-bottom:30px;
+}
+.ge-main{
+ display:flex;
+ flex-direction:row;
+ justify-content: space-around;
+ margin:10px;
+}
+.ge-img{
+ height:480px;
+ width:480px;
+ object-fit:cover;
+}
+.ge-para{
+ display:flex;
+ flex-wrap:wrap;
+ align-items:center;
+ font-family: 'Arimo', sans-serif;
+ font-size:30px;
+ margin:10px;
+ width:500px;
+}
+.ge-r{
+ display:flex;
+ flex-wrap:wrap;
+ align-items: center;
+ justify-content:center;
+ font-family: 'Arimo', sans-serif;
+ font-size:30px;
+ margin-top:30px;
+ margin-left:150px;
+ margin-right:150px;
+ margin-bottom: 20px;
+ width:1000px;
+}
+
+/* Creme Puff here */
+.cm-h1{
+ display: flex;
+ justify-content:center;
+ align-items: center;
+ font-family: 'Concert One', cursive;
+ font-size:80px;
+ margin-bottom:30px;
+}
+.cm-main{
+ display:flex;
+ flex-direction:row;
+ justify-content: space-around;
+ margin:10px;
+}
+.cm-img{
+ height:480px;
+ width:480px;
+ object-fit:cover;
+}
+.cm-para{
+ display:flex;
+ flex-wrap:wrap;
+ align-items:center;
+ font-family: 'Arimo', sans-serif;
+ font-size:30px;
+ margin:10px;
+}
+.cm-r{
+ display:flex;
+ flex-wrap:wrap;
+ align-items: center;
+ justify-content:center;
+ font-family: 'Arimo', sans-serif;
+ font-size:30px;
+ margin-top:30px;
+ margin-left:150px;
+ margin-right:150px;
+ margin-bottom: 20px;
+ width:1000px;
+}
+
+/* Boston Cream Pie here */
+.bo-h1{
+ display: flex;
+ justify-content:center;
+ align-items: center;
+ font-family: 'Concert One', cursive;
+ font-size:80px;
+ margin-bottom:30px;
+}
+.bo-main{
+ display:flex;
+ flex-direction:row;
+ justify-content: space-around;
+ margin:10px;
+}
+.bo-img{
+ height:480px;
+ width:480px;
+ object-fit:cover;
+}
+.bo-para{
+ display:flex;
+ flex-wrap:wrap;
+ align-items:center;
+ font-family: 'Arimo', sans-serif;
+ font-size:30px;
+ margin:10px;
+}
+.bo-r{
+ display:flex;
+ flex-wrap:wrap;
+ align-items: center;
+ justify-content:center;
+ font-family: 'Arimo', sans-serif;
+ font-size:30px;
+ margin-top:30px;
+ margin-left:150px;
+ margin-right:150px;
+ margin-bottom: 20px;
+ width:1000px;
+}
